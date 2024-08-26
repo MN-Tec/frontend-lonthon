@@ -1,0 +1,10 @@
+.content_world {
+  /* height: 150px; */
+  margin: 0 50px;
+}
+
+.adImg {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,125 @@
+.cover {
+  height: 80px;
+  padding: 10px 7vw;
+  background-image: url("../image/cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.coverText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+.title {
+  font-size: 40px;
+  color: #6d6d6d;
+}
+
+.route {
+  font-size: 20px;
+  color: #6f6d6d;
+}
+
+.searchBox {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  height: 45.78px;
+  width: 100%;
+  outline: none;
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+.sort {
+  margin-right: 10px;
+}
+
+.filterText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  border-bottom: 2px solid #6d6d6d;
+  padding: 12px 0;
+}
+
+.filterTitle {
+  font-size: 20px;
+  color: #484848;
+}
+
+.filterToggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  margin: 10px 0;
+  color: #6d6d6d;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.filterCol {
+  height: 100%;
+  width: 25%;
+}
+
+.ad {
+  width: 100%;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.pagiIcon {
+  font-size: 35px;
+  color: #c4c4c4;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.pagiIcon:hover {
+  color: #ffff;
+  background-color: #6d6d6d;
+}
+
+.pagiText {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.noContentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 660px) {
+  .filterCol {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .filterCol {
+    width: 100%;
+  }
+}

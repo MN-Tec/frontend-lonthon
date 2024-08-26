@@ -1,0 +1,43 @@
+.container {
+  position: relative;
+}
+
+.arrowPrev {
+  background-color: #6d6d6d;
+  width: 66px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #ffff;
+  font-size: 25px;
+  position: absolute;
+  top: 200px;
+  left: -2vw;
+  z-index: 1;
+  border: none;
+  cursor: pointer;
+}
+
+.arrowNext {
+  background-color: #6d6d6d;
+  width: 66px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #ffff;
+  font-size: 25px;
+  position: absolute;
+  top: 200px;
+  right: -2vw;
+  z-index: 1;
+  border: none;
+  cursor: pointer;
+}
+
+.img {
+  width: 50px;
+}

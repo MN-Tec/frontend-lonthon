@@ -1,0 +1,282 @@
+.rightCon {
+  background-color: #eae9e9;
+  height: fit-content;
+  width: 78%;
+  display: flex;
+  justify-content: space-between;
+  padding: 34px 28px;
+}
+
+.rContainer {
+  width: 100%;
+}
+
+.pTitle {
+  font-size: 24px;
+  color: #6f6d6d;
+}
+
+.filterOp {
+  width: fit-content;
+  height: 54px;
+  background: #6f6d6d;
+  outline: none;
+  color: white;
+  padding: 14px 24px;
+  font-size: 16px;
+  margin-right: 14px;
+}
+
+.filterContainer {
+  margin-top: 39px;
+}
+
+.tableCon {
+  height: fit-content;
+  margin-top: 30px;
+}
+
+.tableSearch {
+  height: 40px;
+  width: 300px;
+  outline: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.addBtn {
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.back {
+  color: #6f6d6d;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 1px solid #6f6d6d;
+  width: fit-content;
+  padding: 5px 10px;
+  transition: 0.3s ease;
+}
+
+.back:hover {
+  background-color: #6f6d6d;
+  color: white;
+}
+
+.uploadImg {
+  width: 316px;
+  height: 106px;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #6f6d6d;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.uploadImgBan {
+  width: 316px;
+  height: 106px;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #6f6d6d;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.addimgBtn {
+  margin: 20px 0px;
+  cursor: pointer;
+}
+
+.test {
+  width: 100px;
+}
+
+.formTitle {
+  font-size: 12px;
+  color: #6f6d6d;
+  margin-bottom: 9px;
+  margin-top: 16px;
+}
+
+.inputText {
+  width: 100%;
+  height: 36px;
+  border: 1px solid #6f6d6d;
+  border-radius: 2px;
+  outline: none;
+  padding: 12px 20px;
+  background-color: #eae9e9;
+}
+
+.filterOpUp {
+  width: fit-content;
+  height: 36px;
+  outline: none;
+  color: #6f6d6d;
+  background-color: #eae9e9;
+  padding: 8px 17px;
+  font-size: 12px;
+}
+
+.nameCon {
+  display: flex;
+}
+
+.docLogo {
+  color: #6d6d6d;
+  font-size: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.uploadContentCon {
+  width: 560px;
+  height: 148px;
+  border: 1px solid #6f6d6d;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.ucTitle {
+  font-size: 12px;
+  color: #6f6d6d;
+}
+
+.saveBtn {
+  width: 112px;
+  margin-top: 20px;
+}
+
+.ayInput {
+  height: 148px;
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: #eae9e9;
+  resize: none;
+  border: 1px solid #6f6d6d;
+  border-radius: 2px;
+  outline: none;
+}
+
+.contentInput {
+  height: 148px;
+  width: 100%;
+  max-width: 569.11px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: #eae9e9;
+  border: 1px solid #6f6d6d;
+  border-radius: 2px;
+  outline: none;
+}
+
+.TBSec {
+  margin-top: 50px;
+}
+
+.addBtnAuth {
+  margin-top: 10px;
+  border: 1px solid #6d6d6d;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: fit-content;
+  color: white;
+  background-color: #6d6d6d;
+}
+
+.imagePrevCon {
+  width: 100px;
+}
+
+.imagePrevRem {
+  font-size: 12px;
+  border: 1px solid #6d6d6d;
+  color: white;
+  background-color: #6d6d6d;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+
+.previewImg {
+  width: 100px;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.errorTxt {
+  font-size: 12px;
+  color: red;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.videoPlayer {
+  margin-top: 20px;
+}
+
+.modalImage {
+  width: 100px;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.thumbImgSelectCon {
+  display: flex;
+  align-items: center;
+}
+
+.uploadSection {
+  width: 100%;
+}
+
+@media screen and (max-width: 906px) {
+  .uploadContentCon {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .leftCon {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .rightCon {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .uploadImg {
+    font-size: 13px;
+  }
+}

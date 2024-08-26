@@ -1,0 +1,26 @@
+.container {
+  width: 173px;
+  height: 84px;
+  margin-right: 10px;
+  background: #6f6d6d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 14px 22px;
+  color: white;
+}
+
+.title {
+  font-size: 11px;
+}
+
+.num {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 680px) {
+  .container{
+    width: 100%;
+  }
+  
+}

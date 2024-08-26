@@ -1,0 +1,260 @@
+.container {
+  width: 255px;
+  height: 500px !important;
+  /* height: fit-content; */
+  background: #f8f8f8;
+  border: 0.8px solid #6d6d6d;
+  position: relative;
+  margin-top: 80px;
+  margin-left: 65px;
+}
+
+.imgCon {
+  width: 132px;
+  height: 188px;
+  border: 1px solid #6d6d6d;
+  border-radius: 70px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.contentCon {
+  margin-top: 152px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 67%;
+}
+
+.text_area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.type {
+  font-size: 18px;
+  color: #6d6d6d;
+  font-style: italic;
+  text-decoration: underline;
+}
+.textOverlay {
+  width: 90%;
+  position: absolute; /* Position absolutely within the image container */
+  left: 50%; /* Center the text horizontally */
+  transform: translateX(-50%); /* Center the text horizontally */
+  background-color: rgba(255, 255, 255, 0.8); /* White background with slight transparency */
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center; /* Center text */
+  z-index: 2; /* Ensure the text is above the image */
+}
+.overlayText {
+  margin: 0; /* Reset default margin */
+  font-size: 14px; /* Adjust font size as needed */
+  color: #000; /* Text color */
+}
+.title {
+  font-size: 24px;
+  color: #6d6d6d;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.author2 {
+  color: #6d6d6d;
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.des {
+  color: #6d6d6d;
+  font-size: 15px;
+  margin: 0 20px;
+  max-height: 250px;
+  /* height: 150px; */
+  overflow: hidden;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.author_img {
+  width: 32px;
+  height: 32px;
+  border: 0.3px solid #6d6d6d;
+  margin-right: 10px;
+}
+
+.unlike {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.like {
+  font-size: 25px;
+  cursor: pointer;
+  color: red;
+}
+
+.author_section {
+  padding: 0px 20px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+}
+
+.sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.price {
+  color: #6d6d6d;
+  width: 60px;
+  height: 60px;
+  background: #f6f6f6;
+  border: 1.5px solid #6d6d6d;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+
+.link {
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.authorLarger {
+  font-size: 18px;
+}
+
+/* @media screen and (max-width: 920px) {
+  .container {
+    margin-left: 150px;
+    height: 480px;
+  }
+
+  .containerReSize {
+    margin-left: 0px;
+  }
+} */
+@media screen and (max-width: 680px) {
+  .container {
+    margin-left: 150px;
+    height: 480px;
+  }
+
+  .containerReSize {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .container {
+    width: 350px;
+    margin-left: 67px;
+  }
+  .containerReSize {
+    margin-left: 0px;
+  }
+  .imgCon {
+    width: 102px;
+    height: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .contentCon {
+    margin-top: 120px;
+  }
+
+  .type {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .des {
+    font-size: 13px;
+  }
+
+  .author2 {
+    font-size: 14px;
+  }
+
+  .price {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    margin-left: 52px;
+    width: 300px;
+  }
+  .containerReSize {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    margin-left: 52px;
+    width: 250px;
+  }
+  .containerReSize {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    margin-left: 59px;
+    width: 200px;
+  }
+  .containerReSize {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container {
+    margin-left: 50px;
+    width: 200px;
+  }
+  .containerReSize {
+    margin-left: 0px;
+  }
+}

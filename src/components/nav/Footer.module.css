@@ -1,0 +1,146 @@
+.container {
+  background-color: #6d6d6d;
+  height: fit-content;
+  padding: 61px 7vw;
+}
+
+.footer {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 82px;
+}
+
+.des {
+  font-size: 16px;
+  color: #ffff;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.social_icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sCon {
+  background-color: #484848;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 30px;
+  color: #ffff;
+}
+
+.title {
+  font-size: 20px;
+  text-decoration-line: underline;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.links {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.email {
+  font-size: 14px;
+  color: #ffff;
+}
+
+.titleLinkContainer {
+  margin-right: 10px;
+}
+
+.content_world {
+  background-color: #eae9e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+.banner {
+  width: 90vw;
+}
+
+.cw_text {
+  font-size: 20px;
+}
+
+.cw_logo {
+  width: 22px;
+}
+
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .links {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .logo {
+    width: 72px;
+  }
+
+  .des {
+    font-size: 14px;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  .sCon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .emailInput {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .titleLinkContainer {
+    margin-bottom: 20px;
+  }
+
+  .socials {
+    margin-bottom: 20px;
+  }
+
+  .links {
+    width: fit-content;
+  }
+}
+

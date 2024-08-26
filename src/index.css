@@ -1,0 +1,48 @@
+:root {
+  --primary-color: #6d6d6d;
+  --primary-color-hover: #505050;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bellota", cursive;
+}
+
+body {
+  background-color: #eae9e9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.primary-icon-button {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 40px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease-out;
+}
+.primary-icon-button:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.ck-editor__editable {
+  min-height: 500px;
+}
+
+/* .color {
+  background-color: #eae9e9; LIGHT GREY
+  background-color: #ffffff; White 
+  color: #6d6d6d; Dark grey
+  color: #6f6d6d; grey
+} */

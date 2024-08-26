@@ -1,0 +1,111 @@
+.rightCon {
+  background-color: #eae9e9;
+  height: 700px;
+  width: 78%;
+  display: flex;
+  justify-content: space-between;
+  padding: 34px 28px;
+}
+
+.epTitle {
+  font-size: 24px;
+  color: #6f6d6d;
+}
+
+.userIcon {
+  font-size: 78px;
+  cursor: pointer;
+}
+
+.userImgCon {
+  display: flex;
+  padding-top: 24px;
+}
+
+.pencilIcon {
+  cursor: pointer;
+}
+
+.dp {
+  height: 74px;
+  width: 74px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.ayInput {
+  height: 148px;
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: #eae9e9;
+  resize: none;
+  border: 1px solid #6f6d6d;
+  border-radius: 2px;
+  outline: none;
+}
+
+.formTitle {
+  font-size: 12px;
+  color: #6f6d6d;
+  margin-bottom: 9px;
+  margin-top: 16px;
+}
+
+.inputText {
+  width: 100%;
+  height: 36px;
+  border: 1px solid #6f6d6d;
+  border-radius: 2px;
+  outline: none;
+  padding: 12px 20px;
+  background-color: #eae9e9;
+}
+
+.rContainer {
+  width: 50%;
+}
+
+.formSection {
+  margin-top: 26px;
+}
+
+.btn {
+  width: 112px;
+  margin-top: 27px;
+}
+
+@media screen and (max-width: 680px) {
+  .rightCon {
+    background-color: #eae9e9;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 28px;
+  }
+
+
+.inputText {
+  width: 100%;
+  height: 36px;
+  border: 1px solid #6f6d6d;
+  border-radius: 2px;
+  outline: none;
+  padding: 12px 20px;
+  background-color: #eae9e9;
+}
+
+.rContainer {
+  width: 100%;
+}
+
+.formSection {
+  margin-top: 26px;
+}
+
+.btn {
+  width: 112px;
+  margin-top: 27px;
+}
+}
